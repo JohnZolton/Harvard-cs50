@@ -1,3 +1,4 @@
+// calculates the minimum number of coins a cashier should give a customer as change
 #include <cs50.h>
 #include <stdio.h>
 
