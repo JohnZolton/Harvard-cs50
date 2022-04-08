@@ -18,9 +18,9 @@ int main(int argc, char *argv[])
         printf("error, couldn't open file\n");
         return 1;
     }
-
+    //open input file and store in 'file'
     FILE *file = fopen(argv[1], "r");
-    FILE *new_file = NULL;
+    FILE *new_file = NULL; // empty file we'll use later
     BYTE buffer[512];
 
     int pic_counter = 0;
